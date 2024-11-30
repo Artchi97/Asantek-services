@@ -7,7 +7,7 @@ export default function Footer() {
     <footer>
       <div>
         <h2 className="asantek-h2">ASANTEK USŁUGI</h2>
-        <p>Pogotowe hydrauliczne</p>
+        <p>Pogotowe hydrauliczne i elektryczne</p>
         <h3>Godziny otwarcia:</h3>
         <p>Pon - So 6:00 - 20:00</p>
       </div>

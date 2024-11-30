@@ -24,6 +24,10 @@
   margin-bottom: 16px;
 }
 
+.call-btn a {
+  font-weight: bold;
+}
+
 .call-btn:hover {
   background-color: var(--gold);
   cursor: pointer;

@@ -1,0 +1,66 @@
+.main-img-container {
+  background-image: url("../assets/pan-xiaozhen-IYE0ImQlY90-unsplash.webp");
+  background-size: cover;
+
+  height: 280px;
+  position: relative;
+}
+
+.main-sentence {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 32px;
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  background: linear-gradient(to right, rgb(202, 108, 108), var(--lightBlue));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .main-sentence {
+    font-size: 40px;
+    padding: 10px 8px;
+  }
+
+  .main-img-container {
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-sentence {
+    font-size: 48px;
+    padding: 14px 8px;
+  }
+
+  .main-img-container {
+    background-position: center;
+  }
+
+  .main-img-container {
+    height: 380px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-sentence {
+    font-size: 64px;
+    padding: 24px 8px;
+  }
+}

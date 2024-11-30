@@ -1,0 +1,24 @@
+.fallback-component {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fallback-sentence {
+  font-size: 24px;
+  font-weight: bold;
+  animation: blink 2s inifinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    color: var(--darkBlue);
+  }
+  100% {
+    color: var(--lightBlue);
+  }
+}

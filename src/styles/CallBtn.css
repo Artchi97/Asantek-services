@@ -1,0 +1,50 @@
+.call-btn-container {
+  position: absolute;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+}
+
+.need-help-h2 {
+  color: rgb(205, 205, 210);
+}
+
+.call-btn {
+  padding: 8px 24px;
+  outline: none;
+  border-radius: 24px;
+  background-image: linear-gradient(to bottom, var(--gold), white);
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-bottom: 16px;
+}
+
+.call-btn:hover {
+  background-color: var(--gold);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .call-btn-container {
+    gap: 48px;
+  }
+
+  .need-help-h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .call-btn-container {
+    gap: 48px;
+  }
+
+  .need-help-h2 {
+    font-size: 32px;
+  }
+}

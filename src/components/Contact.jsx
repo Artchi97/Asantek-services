@@ -35,7 +35,7 @@ export default function Contact({ id }) {
       <div className="contact-details">
         <div className="telmail-contact-container">
           <img src={location} alt="location icon" />
-          <p>05-091 Warszawa, ul. Powstańców 60/103</p>
+          <p>Warszawa</p>
         </div>
       </div>
     </div>

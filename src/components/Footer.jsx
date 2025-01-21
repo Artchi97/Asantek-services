@@ -30,7 +30,9 @@ export default function Footer() {
         </div>
       </div>
       <p className="all-rights-reserved">
-        &copy; Copyright 2024 - all rights reserved
+        &copy; Copyright 2024 - all rights reserved. Strona używa ciasteczek
+        (cookies). Korzystając ze strony, wyrażasz zgodę na korzystanie z
+        cookies.
       </p>
     </footer>
   );
